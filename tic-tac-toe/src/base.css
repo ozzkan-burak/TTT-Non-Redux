@@ -1,0 +1,39 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.board{
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.sqr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid grey;
+  font-size: 65px;
+  user-select: none;
+  cursor: pointer;
+} 
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.head {
+  font-size: 25px;
+  padding: 15px;
+}
+.gameStatus{
+  font-size: 25px;
+  color: red;
+  padding: 15px 0;
+}
